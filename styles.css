@@ -1,108 +1,108 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family:Heebo, sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Heebo, sans-serif;
 }
 
-.brandName{
-    font-weight: bolder;
-    color: black;
+.brandName {
+  font-weight: bolder;
+  color: black;
 
 }
 
-.subLinks{
-    color: gray; 
+.subLinks {
+  color: gray;
 }
-.head{
-    padding-left: 15rem;
-    padding-top: 5rem;
+
+.head {
+  padding-left: 15rem;
+  padding-top: 5rem;
 }
-.first_text{
-    color: rgb(226, 103, 20);
+
+.first_text {
+  color: rgb(226, 103, 20);
 }
-.second_text{
-    color: black;
-    font-weight: bold;
+
+.second_text {
+  color: black;
+  font-weight: bold;
 }
-.third_text{
-    color: gray;
+
+.third_text {
+  color: gray;
 }
+
 .column {
-    float: left;
-    width: 19%;
-    margin-top: 1rem;
-    margin-left: 1rem;
+  float: left;
+  width: 19%;
+  margin-top: 1rem;
+  margin-left: 1rem;
 
-  }
-  
-  /* Add a transparency effect for thumnbail images */
-  .demo {
-    opacity: 0.6;
-    border-radius: 10px;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
+}
 
- border: 2px solid orangered;
-  }
-  .iconCart{
-    padding-left: 45rem;
-    margin-right:2rem;
-  }
-  .badge{
-    color: rgb(224, 81, 28);
-    font-weight: bold;
-  }
-  .price{
-    font-size: large;
-    font-weight: bold;
-  }
-  .action{
-    color: rgb(223, 90, 14);
-    font-weight: bold;
-  }
-  .colorbtn{
-    background-color: #E26903;
-    color: white;
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+  border-radius: 10px;
+}
 
-  }
+.active,
+.demo:hover {
+  opacity: 1;
 
-   .quantity {
+  border: 2px solid orangered;
+}
 
-    width: 90px;
-    height: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: auto;
-    background-color: #ffffff;
-    border: 1px solid #e5e5e5;
-    border-radius: 7px;
-    filter: drop-shadow(0px 1px 0px #efefef)
-      drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
-  }
-  
-  .quantity label {
-    width: 20px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 2px;
-    font-size: 15px;
-    font-weight: 700;
-    color: #47484b;
-  }
+.iconCart {
+  padding-left: 45rem;
+  margin-right: 2rem;
+}
 
-   .quantity button {
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 0;
-    outline: none;
-    background-color: transparent;
-    padding-bottom: 2px;
-  }
+.badge {
+  color: rgb(224, 81, 28);
+  font-weight: bold;
+}
+
+.price {
+  font-size: large;
+  font-weight: bold;
+}
+
+.action {
+  color: rgb(223, 90, 14);
+  font-weight: bold;
+}
+
+.colorbtn {
+  background-color: #f57b2b;
+  color: white;
+  height: 45px;
+  width: 210px;
+}
+
+.wapper {
+  height: 50px;
+  min-width: 100px;
+  /* width: 200px; */
+  display: flex;
+  background-color: #f0e9e9;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.wapper span {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  font-weight: bold;
+  color: #E26903;
+  cursor: pointer;
+}
+
+.wapper span.num {
+  border-right: 2px solid rgb(190, 189, 189);
+  border-left: 2px solid rgb(190, 189, 189);
+}
