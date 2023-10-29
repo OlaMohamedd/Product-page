@@ -1,3 +1,4 @@
+
 // Get references to the buttons and value display
 const incrementBtn = document.getElementById("increment");
 const decrementBtn = document.getElementById("decrement");
@@ -13,10 +14,14 @@ incrementBtn.addEventListener("click", () => {
 });
 
 decrementBtn.addEventListener("click", () => {
+    if( value == 0){
+        valueDisplay.textContent = 0; 
+    }
+    else{
   value--;
   valueDisplay.textContent = value;
+    }
 });
-
 
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -48,3 +53,5 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
   captionText.innerHTML = dots[slideIndex - 1].alt;
 }
+
+
